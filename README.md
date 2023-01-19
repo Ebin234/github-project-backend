@@ -17,10 +17,10 @@ This will  install all the dependencies of this project
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3500/api/user/:username]() to view it in your browser and also you need to put a github username in the end of the link.\
+1. Open [http://localhost:3500/api/user/:username]() to view it in your browser and also you need to change the username as a valid github username at the end of the link.\
 example : [http://localhost:3500/api/user/ebin234](http://localhost:3500/api/user/ebin234) . it will give the github user data.
 
-Open [http://localhost:3500/api/user/repositories/:username/:page]() to view it in your browser and also you need to put a github username and page number in the end of the link.\
+2. Open [http://localhost:3500/api/user/repositories/:username/:page]() to view it in your browser and also you need to change the username as a valid github username and page as page number at the end of the link.\
 example : [http://localhost:3500/api/user/repositories/ebin234/1](http://localhost:3500/api/user/repositories/ebin234/1). It will gives the github user repositories data.
 
 The page will reload when you make changes.\
